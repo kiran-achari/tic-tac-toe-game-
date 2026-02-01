@@ -12,7 +12,7 @@ A simple and interactive **Tic Tac Toe** game built using **HTML, CSS, and JavaS
 * Real-time win and draw detection
 * Interactive and clean user interface
 * Reset / Restart game option
-* Responsive design for desktop and mobile devices
+* Responsive design for desktop
 
 ---
 
