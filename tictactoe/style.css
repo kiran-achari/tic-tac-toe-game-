@@ -83,3 +83,102 @@ body{
     text-align: center;
     color:gold;
 }
+@media (max-width: 480px) {
+  body {
+    padding: 10px;
+  }
+
+  .container {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .game {
+    height: 90vmin;
+    width: 90vmin;
+    gap: 2vmin;
+  }
+
+  .box {
+    height: 28vmin;
+    width: 28vmin;
+    font-size: 10vmin;
+    border-radius: 1.5rem;
+  }
+
+  #reset,
+  #newgame {
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+
+  #msg {
+    font-size: 8vmin;
+  }
+
+  .heading {
+    font-size: 1.8rem;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .container {
+    height: 80vh;
+  }
+
+  .game {
+    height: 70vmin;
+    width: 70vmin;
+    gap: 1.8vmin;
+  }
+
+  .box {
+    height: 20vmin;
+    width: 20vmin;
+    font-size: 9vmin;
+  }
+
+  #reset,
+  #newgame {
+    font-size: 1.2rem;
+  }
+
+  .heading {
+    font-size: 2.2rem;
+  }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  .game {
+    height: 60vmin;
+    width: 60vmin;
+  }
+
+  .box {
+    height: 18vmin;
+    width: 18vmin;
+    font-size: 8vmin;
+  }
+
+  #msg {
+    font-size: 9vmin;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    height: 75vh;
+  }
+
+  .game {
+    height: 50vmin;
+    width: 50vmin;
+  }
+
+  .box {
+    height: 15vmin;
+    width: 15vmin;
+    font-size: 7vmin;
+  }
+
+  .heading {
+    font-size: 3rem;
+  }
+}
