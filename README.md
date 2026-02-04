@@ -42,6 +42,7 @@ tic-tac-toe/
 ├── index.html
 ├── style.css
 ├── script.js
+├──.nojekyll
 └── README.md
 ```
 
