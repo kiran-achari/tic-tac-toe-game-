@@ -28,7 +28,7 @@ A simple and interactive **Tic Tac Toe** game built using **HTML, CSS, and JavaS
 ## 🚀 How to Play
 
 1. Open the game in any modern web browser.
-2. Player **X** starts the game.
+2. Player **O** starts the game.
 3. Players take turns clicking on the grid to place their mark.
 4. The game announces the winner or declares a draw.
 5. Click the **Reset** button to start a new game.
